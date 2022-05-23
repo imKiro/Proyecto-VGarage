@@ -1,0 +1,145 @@
+html {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #c39d94 !important;
+}
+
+.navbar-toggler{
+    color: white !important;
+}
+
+.navbar-toggler-icon{
+    background-image: url(../images/icon.svg) !important;
+}
+
+.btn {
+    height: 50px;
+    width: 180px;
+    border: none;
+    background-color: #950A12;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.btn:hover {
+    background-color: #BB8377;
+    color: #3A001E;
+}
+
+.bn-h1 {
+    font-size: 2.5em;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.btn-bn {
+    color: #3A001E !important;
+    font-size: 25px;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 10px 10px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.btn-bn:hover {
+    background-color: white;
+    color: #000000;
+}
+
+.current {
+    color: #950A12 !important;
+}
+
+#banner {
+    position: relative;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+#videobcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:auto;
+    width:auto;
+    z-index: -1;
+    filter: brightness(0.07) saturate(200%);
+}
+
+.pr2{
+    font-size: 3.8rem;
+    letter-spacing: 5px; 
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+    font: 700 normal 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.page-footer{
+    color: rgb(0, 0, 0);
+    background-color: #c39d94;
+}
+
+.page-footer a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 20px;
+}
+
+.ind{
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.ind:hover {
+    color: #3A001E !important;
+}
+

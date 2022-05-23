@@ -1,0 +1,242 @@
+html {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fffdfc;
+}
+
+.navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #c39d94 !important;
+}
+
+.navbar-toggler{
+    color: white !important;
+}
+
+.navbar-toggler-icon{
+    background-image: url(../images/icon.svg) !important;
+}
+
+.btn {
+    height: 50px;
+    width: 180px;
+    border: none;
+    background-color: #950A12;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.btn:hover {
+    background-color: #BB8377;
+    color: #3A001E;
+}
+
+.bn-h1 {
+    font-size: 2.5em;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.btn-bn {
+    color: #3A001E !important;
+    font-size: 25px;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 10px 10px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.btn-bn:hover {
+    background-color: white;
+    color: #000000;
+}
+
+.current {
+    color: #950A12 !important;
+}
+
+#banner {
+    position: relative;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+}
+
+#videobcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:auto;
+    width:auto;
+    z-index: -100;
+    filter: brightness(0.3) saturate(200%);
+}
+
+.pr2{
+    font-size: 3.8rem;
+    letter-spacing: 5px; 
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+    font: 700 normal 'tahoma';
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    margin-top: 370px;
+    margin-bottom: 388px;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #ffffff;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #ffffff;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #000000;
+    line-height: 24px;
+		font-size: 22px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 20px;
+}
+
+.team4 ul li a {
+  color: #000000;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #000000;
+}
+
+.round-img{
+    border-radius: 400px;
+}
+
+.bg{
+    color: black !important; 
+    background-color: #f0f0f0;
+}
+
+.font-weight-medium{
+    color: black !important;
+}
+
+.titl{
+    color: black !important;
+    text-transform: uppercase;
+    font-size: 50px !important;
+    text-shadow: 0px 1px #222324, 1px 1px #222324, 1px 1px #222324;
+}
+
+.text-center{
+    padding: 0px !important;
+}
+
+.subtitle2{
+    color: black !important;
+    font-size: 19px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.subtitle3{
+    color: black !important;
+    font-size: 17px;
+}
+
+.page-footer{
+    color: rgb(0, 0, 0);
+    background-color: #c39d94;
+}
+
+.page-footer a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 20px;
+}
+
+.ind{
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.ind:hover {
+    color: #3A001E !important;
+}
+
+.videoWrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.videoWrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.m{
+    margin-left: 20px;
+    margin-right: 20px;
+}
